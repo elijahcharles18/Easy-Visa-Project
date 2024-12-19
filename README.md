@@ -20,6 +20,30 @@ This project seeks to optimize the foreign labor certification process by using 
 - **Machine Learning Models**: Predictive models to estimate job certification outcomes.
 - **Visualizations**: Clear and interactive visualizations to aid decision-making.
 
+
+## Key Insights
+
+- **Education Level**: The education level of employees, particularly high school and master's degrees, is the most critical factor, strongly influencing job performance and role alignment.
+- **Job Experience**: Prior job experience significantly impacts performance, suggesting that experienced employees are better suited for the roles analyzed.
+- **Prevailing Wage**: Competitive wages are crucial for job satisfaction and retention, highlighting the need for well-structured compensation packages.
+- **Geographical Factors**: Regional and continental factors affect performance, indicating the need for location-specific strategies.
+- **Model Performance**: The Tuned Gradient Boost and XGBoost Classifiers excel across all metrics, making them ideal for predictive tasks, while Decision Tree models, especially without tuning, are less effective.
+
+## Business Insight
+
+Business insights suggest that visa approval is more likely for applicants with higher education (Bachelor’s or above) and relevant job experience, especially if they come from Europe, Africa, or Asia. Focusing recruitment efforts on regions where demand aligns with educational qualifications—such as the Northeast for Master's degrees—can optimize success. Offering a prevailing wage around $72,000 or higher and preferring annual wage units over hourly ones also increases approval chances. Additionally, gathering data on employer wage offers and employee specialization can help tailor hiring strategies, improving alignment with trends that favor successful visa applications.
+
+## Recommendations
+
+- **Hiring**: Focus on candidates with relevant education and experience.
+- **Model Deployment**: Use advanced models like Tuned Gradient Boost and XGBoost for reliable predictions.
+- **Regional Strategies**: Customize hiring, compensation, and training based on regional needs.
+- **Prioritization**: Prioritize applicants with higher education levels (Bachelor's, Master's, or Doctorate) and relevant job experience, as they have higher chances of visa approval.
+- **Focus Regions**: Emphasize hiring from Europe, Africa, and Asia, and consider focusing on regions with greater demand for specific education levels (e.g., Master's in the Northeast).
+- **Compensation**: Ensure that the prevailing wage meets or exceeds $72,000, and prefer applicants with annual wage units over hourly ones.
+- **Data Collection**: Collect additional data on employer wage offers and employee specializations to refine the selection process further and align with trends observed in successful visa approvals.
+
+
 ## Installation
 
 1. Clone the repository:
@@ -48,7 +72,8 @@ This project seeks to optimize the foreign labor certification process by using 
 - **Libraries**:
   - Data Manipulation: `pandas`, `numpy`
   - Data Visualization: `matplotlib`, `seaborn`
-  - Machine Learning: `scikit-learn`, `xgboost`
+  - Machine Learning:  `Stacking Classifier`, `Decision tree`, `Bagging Classifier`, `Random Forest`, `Adaboost Classifier`, `Gradient Boost Classifier`, `XGBoost Classifier`
+   
 - **Tools**: Jupyter Notebook
 
 ## Contributing
